@@ -1,0 +1,9 @@
+   0 date > newfile.txt
+   1 df -h | grep 'G' | awk '{print $3}' >> newfile.txt
+   2 history | tail -5 >> newfile.txt
+   3 cat /proc/cpuinfo | grep '86' | awk '{print $3}' >> newfile.txt
+   4 vi newfile.txt
+   5 ps -ef
+   6 ps -ef | tail -n +2 | wc -l >> newfile.txt 
+   7 cat newfile.txt 
+   8 history > history.txt
